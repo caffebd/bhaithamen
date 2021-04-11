@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/build/share/intermediates/res/merged/release/drawable/notification_bg_low.xml",
+        "source": "/Users/luke/.gradle/caches/transforms-2/files-2.1/f987e5ecd08edcabfece194d568929d8/core-1.3.1/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/build/share/intermediates/res/merged/release/drawable/notification_bg.xml",
+        "source": "/Users/luke/.gradle/caches/transforms-2/files-2.1/f987e5ecd08edcabfece194d568929d8/core-1.3.1/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/build/share/intermediates/res/merged/release/drawable/notification_icon_background.xml",
+        "source": "/Users/luke/.gradle/caches/transforms-2/files-2.1/f987e5ecd08edcabfece194d568929d8/core-1.3.1/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/build/share/intermediates/res/merged/release/drawable/notification_tile_bg.xml",
+        "source": "/Users/luke/.gradle/caches/transforms-2/files-2.1/f987e5ecd08edcabfece194d568929d8/core-1.3.1/res/drawable/notification_tile_bg.xml"
+    }
+]

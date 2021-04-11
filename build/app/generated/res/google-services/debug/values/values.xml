@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">151240183995-3uuin99010j43u8r69nlf1t2jup4kfuo.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://bhaithamen.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">151240183995</string>
+    <string name="google_api_key" translatable="false">AIzaSyBT4UfetNuRFDDkOzcmC2bONIzEfMPvOgc</string>
+    <string name="google_app_id" translatable="false">1:151240183995:android:93af0ebcf1452106ed199e</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBT4UfetNuRFDDkOzcmC2bONIzEfMPvOgc</string>
+    <string name="google_storage_bucket" translatable="false">bhaithamen.appspot.com</string>
+    <string name="project_id" translatable="false">bhaithamen</string>
+</resources>

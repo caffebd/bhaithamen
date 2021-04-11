@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/build/url_launcher/intermediates/res/merged/release/drawable-hdpi-v4/notification_bg_normal.9.png",
+        "source": "/Users/luke/.gradle/caches/transforms-2/files-2.1/e8506e3f9aac1f5564fa83749fe870f8/core-1.1.0/res/drawable-hdpi-v4/notification_bg_normal.9.png"
+    },
+    {
+        "merged": "/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/build/url_launcher/intermediates/res/merged/release/drawable-hdpi-v4/notification_bg_normal_pressed.9.png",
+        "source": "/Users/luke/.gradle/caches/transforms-2/files-2.1/e8506e3f9aac1f5564fa83749fe870f8/core-1.1.0/res/drawable-hdpi-v4/notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/build/url_launcher/intermediates/res/merged/release/drawable-hdpi-v4/notification_bg_low_pressed.9.png",
+        "source": "/Users/luke/.gradle/caches/transforms-2/files-2.1/e8506e3f9aac1f5564fa83749fe870f8/core-1.1.0/res/drawable-hdpi-v4/notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/build/url_launcher/intermediates/res/merged/release/drawable-hdpi-v4/notify_panel_notification_icon_bg.png",
+        "source": "/Users/luke/.gradle/caches/transforms-2/files-2.1/e8506e3f9aac1f5564fa83749fe870f8/core-1.1.0/res/drawable-hdpi-v4/notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/build/url_launcher/intermediates/res/merged/release/drawable-hdpi-v4/notification_bg_low_normal.9.png",
+        "source": "/Users/luke/.gradle/caches/transforms-2/files-2.1/e8506e3f9aac1f5564fa83749fe870f8/core-1.1.0/res/drawable-hdpi-v4/notification_bg_low_normal.9.png"
+    }
+]

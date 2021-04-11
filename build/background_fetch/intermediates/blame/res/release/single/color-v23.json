@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/build/background_fetch/intermediates/res/merged/release/color-v23/abc_tint_spinner.xml",
+        "source": "/Users/luke/.gradle/caches/transforms-2/files-2.1/55eecc294408aaa83a7679596b75d513/appcompat-1.0.2/res/color-v23/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/build/background_fetch/intermediates/res/merged/release/color-v23/abc_tint_switch_track.xml",
+        "source": "/Users/luke/.gradle/caches/transforms-2/files-2.1/55eecc294408aaa83a7679596b75d513/appcompat-1.0.2/res/color-v23/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/build/background_fetch/intermediates/res/merged/release/color-v23/abc_tint_seek_thumb.xml",
+        "source": "/Users/luke/.gradle/caches/transforms-2/files-2.1/55eecc294408aaa83a7679596b75d513/appcompat-1.0.2/res/color-v23/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/build/background_fetch/intermediates/res/merged/release/color-v23/abc_tint_edittext.xml",
+        "source": "/Users/luke/.gradle/caches/transforms-2/files-2.1/55eecc294408aaa83a7679596b75d513/appcompat-1.0.2/res/color-v23/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/build/background_fetch/intermediates/res/merged/release/color-v23/abc_tint_btn_checkable.xml",
+        "source": "/Users/luke/.gradle/caches/transforms-2/files-2.1/55eecc294408aaa83a7679596b75d513/appcompat-1.0.2/res/color-v23/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/build/background_fetch/intermediates/res/merged/release/color-v23/abc_btn_colored_borderless_text_material.xml",
+        "source": "/Users/luke/.gradle/caches/transforms-2/files-2.1/55eecc294408aaa83a7679596b75d513/appcompat-1.0.2/res/color-v23/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/build/background_fetch/intermediates/res/merged/release/color-v23/abc_btn_colored_text_material.xml",
+        "source": "/Users/luke/.gradle/caches/transforms-2/files-2.1/55eecc294408aaa83a7679596b75d513/appcompat-1.0.2/res/color-v23/abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/build/background_fetch/intermediates/res/merged/release/color-v23/abc_color_highlight_material.xml",
+        "source": "/Users/luke/.gradle/caches/transforms-2/files-2.1/55eecc294408aaa83a7679596b75d513/appcompat-1.0.2/res/color-v23/abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/build/background_fetch/intermediates/res/merged/release/color-v23/abc_tint_default.xml",
+        "source": "/Users/luke/.gradle/caches/transforms-2/files-2.1/55eecc294408aaa83a7679596b75d513/appcompat-1.0.2/res/color-v23/abc_tint_default.xml"
+    }
+]

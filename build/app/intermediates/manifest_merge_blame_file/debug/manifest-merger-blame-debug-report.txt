@@ -1,0 +1,693 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.bhaithamen.app"
+4    android:versionCode="2"
+5    android:versionName="1.1.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="29" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/android/app/src/debug/AndroidManifest.xml:6:5-66
+14-->/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/android/app/src/debug/AndroidManifest.xml:6:22-64
+15    <uses-permission android:name="android.permission.SEND_SMS" />
+15-->/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/android/app/src/main/AndroidManifest.xml:3:5-67
+15-->/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/android/app/src/main/AndroidManifest.xml:3:22-64
+16    <uses-permission android:name="android.permission.CAMERA" />
+16-->/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/android/app/src/main/AndroidManifest.xml:4:5-101
+16-->/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/android/app/src/main/AndroidManifest.xml:4:22-62
+17    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+17-->/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/android/app/src/main/AndroidManifest.xml:5:5-71
+17-->/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/android/app/src/main/AndroidManifest.xml:5:22-68
+18    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+18-->/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/android/app/src/main/AndroidManifest.xml:6:5-117
+18-->/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/android/app/src/main/AndroidManifest.xml:6:22-78
+19    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+19-->/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/android/app/src/main/AndroidManifest.xml:7:5-116
+19-->/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/android/app/src/main/AndroidManifest.xml:7:22-77
+20    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+20-->/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/android/app/src/main/AndroidManifest.xml:8:5-79
+20-->/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/android/app/src/main/AndroidManifest.xml:8:22-76
+21    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+21-->/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/android/app/src/main/AndroidManifest.xml:9:5-80
+21-->/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/android/app/src/main/AndroidManifest.xml:9:22-78
+22    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+22-->/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/android/app/src/main/AndroidManifest.xml:10:5-81
+22-->/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/android/app/src/main/AndroidManifest.xml:10:22-78
+23    <uses-permission android:name="android.permission.VIBRATE" />
+23-->/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/android/app/src/main/AndroidManifest.xml:11:5-65
+23-->/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/android/app/src/main/AndroidManifest.xml:11:22-63
+24    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+24-->/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/android/app/src/main/AndroidManifest.xml:12:5-73
+24-->/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/android/app/src/main/AndroidManifest.xml:12:22-71
+25    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- 保持进程在休眠时从屏幕消失 -->
+25-->[:location] /Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-81
+25-->[:location] /Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-78
+26    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- 允许程序修改全局音频设置 -->
+26-->[:record_mp3] /Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/build/record_mp3/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-68
+26-->[:record_mp3] /Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/build/record_mp3/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-65
+27    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+27-->[:record_mp3] /Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/build/record_mp3/intermediates/library_manifest/debug/AndroidManifest.xml:18:5-80
+27-->[:record_mp3] /Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/build/record_mp3/intermediates/library_manifest/debug/AndroidManifest.xml:18:22-77
+28    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+28-->[:firebase_analytics] /Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-79
+28-->[:firebase_analytics] /Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-76
+29    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+29-->[androidx.biometric:biometric:1.0.0-beta01] /Users/luke/.gradle/caches/transforms-2/files-2.1/ff674de236d491f1c99d72bd7d7ade85/biometric-1.0.0-beta01/AndroidManifest.xml:24:5-72
+29-->[androidx.biometric:biometric:1.0.0-beta01] /Users/luke/.gradle/caches/transforms-2/files-2.1/ff674de236d491f1c99d72bd7d7ade85/biometric-1.0.0-beta01/AndroidManifest.xml:24:22-69
+30    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+30-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/luke/.gradle/caches/transforms-2/files-2.1/7dc901e12829c84034118540abd86c4c/play-services-measurement-17.6.0/AndroidManifest.xml:26:5-110
+30-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/luke/.gradle/caches/transforms-2/files-2.1/7dc901e12829c84034118540abd86c4c/play-services-measurement-17.6.0/AndroidManifest.xml:26:22-107
+31
+32    <uses-feature
+32-->[com.google.android.gms:play-services-maps:17.0.0] /Users/luke/.gradle/caches/transforms-2/files-2.1/1268dd65323f347429955010a19cd33c/play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+33        android:glEsVersion="0x00020000"
+33-->[com.google.android.gms:play-services-maps:17.0.0] /Users/luke/.gradle/caches/transforms-2/files-2.1/1268dd65323f347429955010a19cd33c/play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+34        android:required="true" />
+34-->[com.google.android.gms:play-services-maps:17.0.0] /Users/luke/.gradle/caches/transforms-2/files-2.1/1268dd65323f347429955010a19cd33c/play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+35
+36    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+36-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/luke/.gradle/caches/transforms-2/files-2.1/77ee7545cd628345d1d73d1854066a3f/tslocationmanager-3.1.19/AndroidManifest.xml:5:5-84
+36-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/luke/.gradle/caches/transforms-2/files-2.1/77ee7545cd628345d1d73d1854066a3f/tslocationmanager-3.1.19/AndroidManifest.xml:5:22-82
+37    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
+37-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/luke/.gradle/caches/transforms-2/files-2.1/77ee7545cd628345d1d73d1854066a3f/tslocationmanager-3.1.19/AndroidManifest.xml:7:5-78
+37-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/luke/.gradle/caches/transforms-2/files-2.1/77ee7545cd628345d1d73d1854066a3f/tslocationmanager-3.1.19/AndroidManifest.xml:7:22-76
+38    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+38-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/luke/.gradle/caches/transforms-2/files-2.1/77ee7545cd628345d1d73d1854066a3f/tslocationmanager-3.1.19/AndroidManifest.xml:9:5-88
+38-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/luke/.gradle/caches/transforms-2/files-2.1/77ee7545cd628345d1d73d1854066a3f/tslocationmanager-3.1.19/AndroidManifest.xml:9:22-86
+39    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+39-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/luke/.gradle/caches/transforms-2/files-2.1/77ee7545cd628345d1d73d1854066a3f/tslocationmanager-3.1.19/AndroidManifest.xml:11:5-76
+39-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/luke/.gradle/caches/transforms-2/files-2.1/77ee7545cd628345d1d73d1854066a3f/tslocationmanager-3.1.19/AndroidManifest.xml:11:22-74
+40    <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION" />
+40-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/luke/.gradle/caches/transforms-2/files-2.1/77ee7545cd628345d1d73d1854066a3f/tslocationmanager-3.1.19/AndroidManifest.xml:12:5-93
+40-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/luke/.gradle/caches/transforms-2/files-2.1/77ee7545cd628345d1d73d1854066a3f/tslocationmanager-3.1.19/AndroidManifest.xml:12:22-91
+41    <uses-permission android:name="android.permission.GET_TASKS" /> <!-- device-specific permissions for DeviceSettings methods -->
+41-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/luke/.gradle/caches/transforms-2/files-2.1/77ee7545cd628345d1d73d1854066a3f/tslocationmanager-3.1.19/AndroidManifest.xml:14:5-67
+41-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/luke/.gradle/caches/transforms-2/files-2.1/77ee7545cd628345d1d73d1854066a3f/tslocationmanager-3.1.19/AndroidManifest.xml:14:22-65
+42    <uses-permission android:name="oppo.permission.OPPO_COMPONENT_SAFE" />
+42-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/luke/.gradle/caches/transforms-2/files-2.1/77ee7545cd628345d1d73d1854066a3f/tslocationmanager-3.1.19/AndroidManifest.xml:16:5-74
+42-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/luke/.gradle/caches/transforms-2/files-2.1/77ee7545cd628345d1d73d1854066a3f/tslocationmanager-3.1.19/AndroidManifest.xml:16:22-72
+43    <uses-permission android:name="com.huawei.permission.external_app_settings.USE_COMPONENT" />
+43-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/luke/.gradle/caches/transforms-2/files-2.1/77ee7545cd628345d1d73d1854066a3f/tslocationmanager-3.1.19/AndroidManifest.xml:17:5-96
+43-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/luke/.gradle/caches/transforms-2/files-2.1/77ee7545cd628345d1d73d1854066a3f/tslocationmanager-3.1.19/AndroidManifest.xml:17:22-94
+44
+45    <uses-feature
+45-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/luke/.gradle/caches/transforms-2/files-2.1/77ee7545cd628345d1d73d1854066a3f/tslocationmanager-3.1.19/AndroidManifest.xml:18:5-90
+46        android:name="android.hardware.location.gps"
+46-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/luke/.gradle/caches/transforms-2/files-2.1/77ee7545cd628345d1d73d1854066a3f/tslocationmanager-3.1.19/AndroidManifest.xml:18:19-63
+47        android:required="false" />
+47-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/luke/.gradle/caches/transforms-2/files-2.1/77ee7545cd628345d1d73d1854066a3f/tslocationmanager-3.1.19/AndroidManifest.xml:18:64-88
+48
+49    <application
+49-->/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/android/app/src/main/AndroidManifest.xml:13:5-46:19
+50        android:name="io.flutter.app.FlutterApplication"
+50-->/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/android/app/src/main/AndroidManifest.xml:13:48-96
+51        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+51-->[androidx.core:core:1.3.1] /Users/luke/.gradle/caches/transforms-2/files-2.1/f987e5ecd08edcabfece194d568929d8/core-1.3.1/AndroidManifest.xml:24:18-86
+52        android:debuggable="true"
+53        android:icon="@drawable/ic_launcher"
+53-->/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/android/app/src/main/AndroidManifest.xml:13:123-159
+54        android:label="ভাই থামেন"
+54-->/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/android/app/src/main/AndroidManifest.xml:13:97-122
+55        android:requestLegacyExternalStorage="true" >
+55-->[com.github.LuckSiege.PictureSelector:picture_library:v2.5.9] /Users/luke/.gradle/caches/transforms-2/files-2.1/7fb735ee8d87759741c3da9b3f6138a0/picture_library-v2.5.9/AndroidManifest.xml:13:18-61
+56        <meta-data
+56-->/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/android/app/src/main/AndroidManifest.xml:14:9-123
+57            android:name="com.google.android.geo.API_KEY"
+57-->/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/android/app/src/main/AndroidManifest.xml:14:20-65
+58            android:value="AIzaSyA93MkaragygMfhAUK1ataXR9jm5xBcyj0" />
+58-->/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/android/app/src/main/AndroidManifest.xml:14:66-121
+59        <!-- flutter_background_geolocation licence -->
+60+        
+61        <meta-data
+61-->/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/android/app/src/main/AndroidManifest.xml:16:10-162
+62            android:name="com.transistorsoft.locationmanager.license"
+62-->/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/android/app/src/main/AndroidManifest.xml:16:21-78
+63            android:value="28552731bb6172470ff30d3b3dad059d7c7afed0b445d632050061cb2ed1c315" />
+63-->/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/android/app/src/main/AndroidManifest.xml:16:79-159
+64
+65        <activity
+65-->/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/android/app/src/main/AndroidManifest.xml:17:9-33:20
+66            android:name="com.bhaithamen.app.MainActivity"
+66-->/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/android/app/src/main/AndroidManifest.xml:17:19-47
+67            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+67-->/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/android/app/src/main/AndroidManifest.xml:17:114-264
+68            android:hardwareAccelerated="true"
+68-->/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/android/app/src/main/AndroidManifest.xml:17:265-299
+69            android:launchMode="singleTop"
+69-->/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/android/app/src/main/AndroidManifest.xml:17:48-78
+70            android:theme="@style/LaunchTheme"
+70-->/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/android/app/src/main/AndroidManifest.xml:17:79-113
+71            android:windowSoftInputMode="adjustResize" >
+71-->/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/android/app/src/main/AndroidManifest.xml:17:300-342
+72
+73            <!--
+74                 Specifies an Android theme to apply to this Activity as soon as
+75                 the Android process has started. This theme is visible to the user
+76                 while the Flutter UI initializes. After that, this theme continues
+77                 to determine the Window background behind the Flutter UI.
+78            -->
+79            <meta-data
+79-->/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/android/app/src/main/AndroidManifest.xml:22:13-120
+80                android:name="io.flutter.embedding.android.NormalTheme"
+80-->/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/android/app/src/main/AndroidManifest.xml:22:24-79
+81                android:resource="@style/NormalTheme" />
+81-->/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/android/app/src/main/AndroidManifest.xml:22:80-117
+82            <!--
+83                 Displays an Android View that continues showing the launch screen
+84                 Drawable until Flutter paints its first frame, then this splash
+85                 screen fades out. A splash screen is useful to avoid any visual
+86                 gap between the end of Android's launch screen and the painting of
+87                 Flutter's first frame.
+88            -->
+89            <meta-data
+89-->/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/android/app/src/main/AndroidManifest.xml:28:13-138
+90                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+90-->/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/android/app/src/main/AndroidManifest.xml:28:24-88
+91                android:resource="@drawable/launch_background" />
+91-->/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/android/app/src/main/AndroidManifest.xml:28:89-135
+92
+93            <intent-filter>
+93-->/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/android/app/src/main/AndroidManifest.xml:29:13-32:29
+94                <action android:name="android.intent.action.MAIN" />
+94-->/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/android/app/src/main/AndroidManifest.xml:30:17-68
+94-->/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/android/app/src/main/AndroidManifest.xml:30:25-66
+95
+96                <category android:name="android.intent.category.LAUNCHER" />
+96-->/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/android/app/src/main/AndroidManifest.xml:31:17-76
+96-->/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/android/app/src/main/AndroidManifest.xml:31:27-74
+97            </intent-filter>
+98        </activity>
+99        <!-- BroadcastReceiver that listens for incoming SMS messages -->
+100        <receiver android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver" />
+100-->/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/android/app/src/main/AndroidManifest.xml:35:9-106
+100-->/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/android/app/src/main/AndroidManifest.xml:35:19-103
+101        <receiver
+101-->/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/android/app/src/main/AndroidManifest.xml:36:9-40:20
+102            android:name="com.caffebd.studentsurvey.messagerecieve.SmsBroadcastReceiver"
+102-->/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/android/app/src/main/AndroidManifest.xml:36:19-95
+103            android:permission="android.permission.BROADCAST_SMS" >
+103-->/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/android/app/src/main/AndroidManifest.xml:36:96-149
+104            <intent-filter>
+104-->/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/android/app/src/main/AndroidManifest.xml:37:13-39:29
+105                <action android:name="android.provider.Telephony.SMS_DELIVER" />
+105-->/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/android/app/src/main/AndroidManifest.xml:38:17-81
+105-->/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/android/app/src/main/AndroidManifest.xml:38:25-78
+106            </intent-filter>
+107        </receiver>
+108        <!--
+109             Don't delete the meta-data below.
+110             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+111        -->
+112        <meta-data
+112-->/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/android/app/src/main/AndroidManifest.xml:43:9-72
+113            android:name="flutterEmbedding"
+113-->/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/android/app/src/main/AndroidManifest.xml:43:20-51
+114            android:value="2" />
+114-->/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/android/app/src/main/AndroidManifest.xml:43:52-69
+115
+116        <service
+116-->/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/android/app/src/main/AndroidManifest.xml:44:9-134
+117            android:name="com.transistorsoft.locationmanager.service.TrackingService"
+117-->/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/android/app/src/main/AndroidManifest.xml:44:18-91
+118            android:foregroundServiceType="location" />
+118-->/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/android/app/src/main/AndroidManifest.xml:44:92-132
+119        <service
+119-->/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/android/app/src/main/AndroidManifest.xml:45:9-141
+120            android:name="com.transistorsoft.locationmanager.service.LocationRequestService"
+120-->/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/android/app/src/main/AndroidManifest.xml:45:18-98
+121            android:foregroundServiceType="location" />
+121-->/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/android/app/src/main/AndroidManifest.xml:45:99-139
+122
+123        <provider
+123-->[:image_picker] /Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:11:9-19:20
+124            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+124-->[:image_picker] /Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-82
+125            android:authorities="com.bhaithamen.app.flutter.image_provider"
+125-->[:image_picker] /Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-74
+126            android:exported="false"
+126-->[:image_picker] /Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-37
+127            android:grantUriPermissions="true" >
+127-->[:image_picker] /Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-47
+128            <meta-data
+128-->[:image_picker] /Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-18:75
+129                android:name="android.support.FILE_PROVIDER_PATHS"
+129-->[:image_picker] /Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-67
+130                android:resource="@xml/flutter_image_picker_file_paths" />
+130-->[:image_picker] /Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-72
+131        </provider>
+132
+133        <service
+133-->[:cloud_firestore] /Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+134            android:name="com.google.firebase.components.ComponentDiscoveryService"
+134-->[:cloud_firestore] /Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:8:18-89
+135            android:directBootAware="true"
+135-->[com.google.firebase:firebase-common:19.3.1] /Users/luke/.gradle/caches/transforms-2/files-2.1/a35ffd723fc1753a95058f9d4bf468b8/jetified-firebase-common-19.3.1/AndroidManifest.xml:35:13-43
+136            android:exported="false" >
+136-->[com.google.firebase:firebase-auth:19.4.0] /Users/luke/.gradle/caches/transforms-2/files-2.1/fdeb1675f7bf9570f30f9f15bfd0d34b/firebase-auth-19.4.0/AndroidManifest.xml:35:13-37
+137            <meta-data
+137-->[:cloud_firestore] /Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+138                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+138-->[:cloud_firestore] /Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-134
+139                android:value="com.google.firebase.components.ComponentRegistrar" />
+139-->[:cloud_firestore] /Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+140            <meta-data
+140-->[:firebase_auth] /Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+141                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+141-->[:firebase_auth] /Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
+142                android:value="com.google.firebase.components.ComponentRegistrar" />
+142-->[:firebase_auth] /Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+143            <meta-data
+143-->[:firebase_storage] /Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+144                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
+144-->[:firebase_storage] /Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-126
+145                android:value="com.google.firebase.components.ComponentRegistrar" />
+145-->[:firebase_storage] /Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+146            <meta-data
+146-->[:firebase_crashlytics] /Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/build/firebase_crashlytics/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+147                android:name="com.google.firebase.components:io.flutter.plugins.firebase.crashlytics.FlutterFirebaseAppRegistrar"
+147-->[:firebase_crashlytics] /Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/build/firebase_crashlytics/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-130
+148                android:value="com.google.firebase.components.ComponentRegistrar" />
+148-->[:firebase_crashlytics] /Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/build/firebase_crashlytics/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+149            <meta-data
+149-->[:firebase_analytics] /Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-15:85
+150                android:name="com.google.firebase.components:io.flutter.plugins.firebaseanalytics.FlutterFirebaseAppRegistrar"
+150-->[:firebase_analytics] /Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:14:17-127
+151                android:value="com.google.firebase.components.ComponentRegistrar" />
+151-->[:firebase_analytics] /Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:15:17-82
+152            <meta-data
+152-->[:firebase_core] /Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+153                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+153-->[:firebase_core] /Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
+154                android:value="com.google.firebase.components.ComponentRegistrar" />
+154-->[:firebase_core] /Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+155            <meta-data
+155-->[com.google.firebase:firebase-auth:19.4.0] /Users/luke/.gradle/caches/transforms-2/files-2.1/fdeb1675f7bf9570f30f9f15bfd0d34b/firebase-auth-19.4.0/AndroidManifest.xml:36:13-38:85
+156                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+156-->[com.google.firebase:firebase-auth:19.4.0] /Users/luke/.gradle/caches/transforms-2/files-2.1/fdeb1675f7bf9570f30f9f15bfd0d34b/firebase-auth-19.4.0/AndroidManifest.xml:37:17-109
+157                android:value="com.google.firebase.components.ComponentRegistrar" />
+157-->[com.google.firebase:firebase-auth:19.4.0] /Users/luke/.gradle/caches/transforms-2/files-2.1/fdeb1675f7bf9570f30f9f15bfd0d34b/firebase-auth-19.4.0/AndroidManifest.xml:38:17-82
+158            <meta-data
+158-->[com.google.firebase:firebase-crashlytics:17.2.2] /Users/luke/.gradle/caches/transforms-2/files-2.1/8fd5d5aa1d2510f59baa1ade4926bee9/firebase-crashlytics-17.2.2/AndroidManifest.xml:16:13-18:85
+159                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+159-->[com.google.firebase:firebase-crashlytics:17.2.2] /Users/luke/.gradle/caches/transforms-2/files-2.1/8fd5d5aa1d2510f59baa1ade4926bee9/firebase-crashlytics-17.2.2/AndroidManifest.xml:17:17-115
+160                android:value="com.google.firebase.components.ComponentRegistrar" />
+160-->[com.google.firebase:firebase-crashlytics:17.2.2] /Users/luke/.gradle/caches/transforms-2/files-2.1/8fd5d5aa1d2510f59baa1ade4926bee9/firebase-crashlytics-17.2.2/AndroidManifest.xml:18:17-82
+161            <meta-data
+161-->[com.google.firebase:firebase-storage:19.2.0] /Users/luke/.gradle/caches/transforms-2/files-2.1/4d40598ca3f74436d418b18a11256985/firebase-storage-19.2.0/AndroidManifest.xml:33:13-35:85
+162                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+162-->[com.google.firebase:firebase-storage:19.2.0] /Users/luke/.gradle/caches/transforms-2/files-2.1/4d40598ca3f74436d418b18a11256985/firebase-storage-19.2.0/AndroidManifest.xml:34:17-107
+163                android:value="com.google.firebase.components.ComponentRegistrar" />
+163-->[com.google.firebase:firebase-storage:19.2.0] /Users/luke/.gradle/caches/transforms-2/files-2.1/4d40598ca3f74436d418b18a11256985/firebase-storage-19.2.0/AndroidManifest.xml:35:17-82
+164            <meta-data
+164-->[com.google.firebase:firebase-firestore:21.7.1] /Users/luke/.gradle/caches/transforms-2/files-2.1/a92f88a1e0fcb2fc38544fc49e567b35/jetified-firebase-firestore-21.7.1/AndroidManifest.xml:20:13-22:85
+165                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+165-->[com.google.firebase:firebase-firestore:21.7.1] /Users/luke/.gradle/caches/transforms-2/files-2.1/a92f88a1e0fcb2fc38544fc49e567b35/jetified-firebase-firestore-21.7.1/AndroidManifest.xml:21:17-111
+166                android:value="com.google.firebase.components.ComponentRegistrar" />
+166-->[com.google.firebase:firebase-firestore:21.7.1] /Users/luke/.gradle/caches/transforms-2/files-2.1/a92f88a1e0fcb2fc38544fc49e567b35/jetified-firebase-firestore-21.7.1/AndroidManifest.xml:22:17-82
+167            <meta-data
+167-->[com.google.android.gms:play-services-measurement-api:17.6.0] /Users/luke/.gradle/caches/transforms-2/files-2.1/d23acb55d881e92a2864dbfe0b2fab8a/play-services-measurement-api-17.6.0/AndroidManifest.xml:30:13-32:85
+168                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+168-->[com.google.android.gms:play-services-measurement-api:17.6.0] /Users/luke/.gradle/caches/transforms-2/files-2.1/d23acb55d881e92a2864dbfe0b2fab8a/play-services-measurement-api-17.6.0/AndroidManifest.xml:31:17-139
+169                android:value="com.google.firebase.components.ComponentRegistrar" />
+169-->[com.google.android.gms:play-services-measurement-api:17.6.0] /Users/luke/.gradle/caches/transforms-2/files-2.1/d23acb55d881e92a2864dbfe0b2fab8a/play-services-measurement-api-17.6.0/AndroidManifest.xml:32:17-82
+170            <meta-data
+170-->[com.google.firebase:firebase-installations:16.3.3] /Users/luke/.gradle/caches/transforms-2/files-2.1/989025cdb18e8f695d459388ef31085f/firebase-installations-16.3.3/AndroidManifest.xml:17:13-19:85
+171                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+171-->[com.google.firebase:firebase-installations:16.3.3] /Users/luke/.gradle/caches/transforms-2/files-2.1/989025cdb18e8f695d459388ef31085f/firebase-installations-16.3.3/AndroidManifest.xml:18:17-127
+172                android:value="com.google.firebase.components.ComponentRegistrar" />
+172-->[com.google.firebase:firebase-installations:16.3.3] /Users/luke/.gradle/caches/transforms-2/files-2.1/989025cdb18e8f695d459388ef31085f/firebase-installations-16.3.3/AndroidManifest.xml:19:17-82
+173        </service>
+174
+175        <provider
+175-->[:share] /Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-16:20
+176            android:name="io.flutter.plugins.share.ShareFileProvider"
+176-->[:share] /Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-70
+177            android:authorities="com.bhaithamen.app.flutter.share_provider"
+177-->[:share] /Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-74
+178            android:exported="false"
+178-->[:share] /Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-37
+179            android:grantUriPermissions="true" >
+179-->[:share] /Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-47
+180            <meta-data
+180-->[:image_picker] /Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-18:75
+181                android:name="android.support.FILE_PROVIDER_PATHS"
+181-->[:image_picker] /Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-67
+182                android:resource="@xml/flutter_share_file_paths" />
+182-->[:image_picker] /Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-72
+183        </provider>
+184
+185        <activity
+185-->[:url_launcher] /Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-11:74
+186            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+186-->[:url_launcher] /Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-74
+187            android:exported="false"
+187-->[:url_launcher] /Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-37
+188            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+188-->[:url_launcher] /Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-71
+189        <activity
+189-->[com.google.firebase:firebase-auth:19.4.0] /Users/luke/.gradle/caches/transforms-2/files-2.1/fdeb1675f7bf9570f30f9f15bfd0d34b/firebase-auth-19.4.0/AndroidManifest.xml:24:9-31:50
+190            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+190-->[com.google.firebase:firebase-auth:19.4.0] /Users/luke/.gradle/caches/transforms-2/files-2.1/fdeb1675f7bf9570f30f9f15bfd0d34b/firebase-auth-19.4.0/AndroidManifest.xml:25:13-85
+191            android:excludeFromRecents="true"
+191-->[com.google.firebase:firebase-auth:19.4.0] /Users/luke/.gradle/caches/transforms-2/files-2.1/fdeb1675f7bf9570f30f9f15bfd0d34b/firebase-auth-19.4.0/AndroidManifest.xml:26:13-46
+192            android:exported="true"
+192-->[com.google.firebase:firebase-auth:19.4.0] /Users/luke/.gradle/caches/transforms-2/files-2.1/fdeb1675f7bf9570f30f9f15bfd0d34b/firebase-auth-19.4.0/AndroidManifest.xml:27:13-36
+193            android:launchMode="singleTask"
+193-->[com.google.firebase:firebase-auth:19.4.0] /Users/luke/.gradle/caches/transforms-2/files-2.1/fdeb1675f7bf9570f30f9f15bfd0d34b/firebase-auth-19.4.0/AndroidManifest.xml:28:13-44
+194            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+194-->[com.google.firebase:firebase-auth:19.4.0] /Users/luke/.gradle/caches/transforms-2/files-2.1/fdeb1675f7bf9570f30f9f15bfd0d34b/firebase-auth-19.4.0/AndroidManifest.xml:29:13-102
+195            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+195-->[com.google.firebase:firebase-auth:19.4.0] /Users/luke/.gradle/caches/transforms-2/files-2.1/fdeb1675f7bf9570f30f9f15bfd0d34b/firebase-auth-19.4.0/AndroidManifest.xml:30:13-72
+196
+197        <service
+197-->[com.google.android.datatransport:transport-backend-cct:2.3.1] /Users/luke/.gradle/caches/transforms-2/files-2.1/c017e76f893d408dcc75b349f47d0b18/jetified-transport-backend-cct-2.3.1/AndroidManifest.xml:29:9-35:19
+198            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+198-->[com.google.android.datatransport:transport-backend-cct:2.3.1] /Users/luke/.gradle/caches/transforms-2/files-2.1/c017e76f893d408dcc75b349f47d0b18/jetified-transport-backend-cct-2.3.1/AndroidManifest.xml:30:13-103
+199            android:exported="false" >
+199-->[com.google.android.datatransport:transport-backend-cct:2.3.1] /Users/luke/.gradle/caches/transforms-2/files-2.1/c017e76f893d408dcc75b349f47d0b18/jetified-transport-backend-cct-2.3.1/AndroidManifest.xml:31:13-37
+200            <meta-data
+200-->[com.google.android.datatransport:transport-backend-cct:2.3.1] /Users/luke/.gradle/caches/transforms-2/files-2.1/c017e76f893d408dcc75b349f47d0b18/jetified-transport-backend-cct-2.3.1/AndroidManifest.xml:32:13-34:39
+201                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+201-->[com.google.android.datatransport:transport-backend-cct:2.3.1] /Users/luke/.gradle/caches/transforms-2/files-2.1/c017e76f893d408dcc75b349f47d0b18/jetified-transport-backend-cct-2.3.1/AndroidManifest.xml:33:17-94
+202                android:value="cct" />
+202-->[com.google.android.datatransport:transport-backend-cct:2.3.1] /Users/luke/.gradle/caches/transforms-2/files-2.1/c017e76f893d408dcc75b349f47d0b18/jetified-transport-backend-cct-2.3.1/AndroidManifest.xml:34:17-36
+203        </service>
+204
+205        <provider
+205-->[com.github.LuckSiege.PictureSelector:picture_library:v2.5.9] /Users/luke/.gradle/caches/transforms-2/files-2.1/7fb735ee8d87759741c3da9b3f6138a0/picture_library-v2.5.9/AndroidManifest.xml:14:9-22:20
+206            android:name="com.luck.picture.lib.PictureFileProvider"
+206-->[com.github.LuckSiege.PictureSelector:picture_library:v2.5.9] /Users/luke/.gradle/caches/transforms-2/files-2.1/7fb735ee8d87759741c3da9b3f6138a0/picture_library-v2.5.9/AndroidManifest.xml:15:13-68
+207            android:authorities="com.bhaithamen.app.provider"
+207-->[com.github.LuckSiege.PictureSelector:picture_library:v2.5.9] /Users/luke/.gradle/caches/transforms-2/files-2.1/7fb735ee8d87759741c3da9b3f6138a0/picture_library-v2.5.9/AndroidManifest.xml:16:13-60
+208            android:exported="false"
+208-->[com.github.LuckSiege.PictureSelector:picture_library:v2.5.9] /Users/luke/.gradle/caches/transforms-2/files-2.1/7fb735ee8d87759741c3da9b3f6138a0/picture_library-v2.5.9/AndroidManifest.xml:17:13-37
+209            android:grantUriPermissions="true" >
+209-->[com.github.LuckSiege.PictureSelector:picture_library:v2.5.9] /Users/luke/.gradle/caches/transforms-2/files-2.1/7fb735ee8d87759741c3da9b3f6138a0/picture_library-v2.5.9/AndroidManifest.xml:18:13-47
+210            <meta-data
+210-->[:image_picker] /Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-18:75
+211                android:name="android.support.FILE_PROVIDER_PATHS"
+211-->[:image_picker] /Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-67
+212                android:resource="@xml/file_paths" />
+212-->[:image_picker] /Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-72
+213        </provider>
+214
+215        <activity
+215-->[com.github.LuckSiege.PictureSelector:picture_library:v2.5.9] /Users/luke/.gradle/caches/transforms-2/files-2.1/7fb735ee8d87759741c3da9b3f6138a0/picture_library-v2.5.9/AndroidManifest.xml:24:9-26:77
+216            android:name="com.luck.picture.lib.PictureSelectorActivity"
+216-->[com.github.LuckSiege.PictureSelector:picture_library:v2.5.9] /Users/luke/.gradle/caches/transforms-2/files-2.1/7fb735ee8d87759741c3da9b3f6138a0/picture_library-v2.5.9/AndroidManifest.xml:25:13-72
+217            android:configChanges="orientation|keyboardHidden|screenSize" />
+217-->[com.github.LuckSiege.PictureSelector:picture_library:v2.5.9] /Users/luke/.gradle/caches/transforms-2/files-2.1/7fb735ee8d87759741c3da9b3f6138a0/picture_library-v2.5.9/AndroidManifest.xml:26:13-74
+218        <activity
+218-->[com.github.LuckSiege.PictureSelector:picture_library:v2.5.9] /Users/luke/.gradle/caches/transforms-2/files-2.1/7fb735ee8d87759741c3da9b3f6138a0/picture_library-v2.5.9/AndroidManifest.xml:27:9-29:77
+219            android:name="com.luck.picture.lib.PictureSelectorWeChatStyleActivity"
+219-->[com.github.LuckSiege.PictureSelector:picture_library:v2.5.9] /Users/luke/.gradle/caches/transforms-2/files-2.1/7fb735ee8d87759741c3da9b3f6138a0/picture_library-v2.5.9/AndroidManifest.xml:28:13-83
+220            android:configChanges="orientation|keyboardHidden|screenSize" />
+220-->[com.github.LuckSiege.PictureSelector:picture_library:v2.5.9] /Users/luke/.gradle/caches/transforms-2/files-2.1/7fb735ee8d87759741c3da9b3f6138a0/picture_library-v2.5.9/AndroidManifest.xml:29:13-74
+221        <activity
+221-->[com.github.LuckSiege.PictureSelector:picture_library:v2.5.9] /Users/luke/.gradle/caches/transforms-2/files-2.1/7fb735ee8d87759741c3da9b3f6138a0/picture_library-v2.5.9/AndroidManifest.xml:30:9-33:64
+222            android:name="com.luck.picture.lib.PictureSelectorCameraEmptyActivity"
+222-->[com.github.LuckSiege.PictureSelector:picture_library:v2.5.9] /Users/luke/.gradle/caches/transforms-2/files-2.1/7fb735ee8d87759741c3da9b3f6138a0/picture_library-v2.5.9/AndroidManifest.xml:31:13-83
+223            android:configChanges="orientation|keyboardHidden|screenSize"
+223-->[com.github.LuckSiege.PictureSelector:picture_library:v2.5.9] /Users/luke/.gradle/caches/transforms-2/files-2.1/7fb735ee8d87759741c3da9b3f6138a0/picture_library-v2.5.9/AndroidManifest.xml:32:13-74
+224            android:theme="@style/Picture.Theme.Translucent" />
+224-->[com.github.LuckSiege.PictureSelector:picture_library:v2.5.9] /Users/luke/.gradle/caches/transforms-2/files-2.1/7fb735ee8d87759741c3da9b3f6138a0/picture_library-v2.5.9/AndroidManifest.xml:33:13-61
+225        <activity
+225-->[com.github.LuckSiege.PictureSelector:picture_library:v2.5.9] /Users/luke/.gradle/caches/transforms-2/files-2.1/7fb735ee8d87759741c3da9b3f6138a0/picture_library-v2.5.9/AndroidManifest.xml:34:9-36:77
+226            android:name="com.luck.picture.lib.PictureCustomCameraActivity"
+226-->[com.github.LuckSiege.PictureSelector:picture_library:v2.5.9] /Users/luke/.gradle/caches/transforms-2/files-2.1/7fb735ee8d87759741c3da9b3f6138a0/picture_library-v2.5.9/AndroidManifest.xml:35:13-76
+227            android:configChanges="orientation|keyboardHidden|screenSize" />
+227-->[com.github.LuckSiege.PictureSelector:picture_library:v2.5.9] /Users/luke/.gradle/caches/transforms-2/files-2.1/7fb735ee8d87759741c3da9b3f6138a0/picture_library-v2.5.9/AndroidManifest.xml:36:13-74
+228        <activity
+228-->[com.github.LuckSiege.PictureSelector:picture_library:v2.5.9] /Users/luke/.gradle/caches/transforms-2/files-2.1/7fb735ee8d87759741c3da9b3f6138a0/picture_library-v2.5.9/AndroidManifest.xml:37:9-39:77
+229            android:name="com.luck.picture.lib.PicturePreviewActivity"
+229-->[com.github.LuckSiege.PictureSelector:picture_library:v2.5.9] /Users/luke/.gradle/caches/transforms-2/files-2.1/7fb735ee8d87759741c3da9b3f6138a0/picture_library-v2.5.9/AndroidManifest.xml:38:13-71
+230            android:configChanges="orientation|keyboardHidden|screenSize" />
+230-->[com.github.LuckSiege.PictureSelector:picture_library:v2.5.9] /Users/luke/.gradle/caches/transforms-2/files-2.1/7fb735ee8d87759741c3da9b3f6138a0/picture_library-v2.5.9/AndroidManifest.xml:39:13-74
+231        <activity
+231-->[com.github.LuckSiege.PictureSelector:picture_library:v2.5.9] /Users/luke/.gradle/caches/transforms-2/files-2.1/7fb735ee8d87759741c3da9b3f6138a0/picture_library-v2.5.9/AndroidManifest.xml:40:9-42:77
+232            android:name="com.luck.picture.lib.PictureSelectorPreviewWeChatStyleActivity"
+232-->[com.github.LuckSiege.PictureSelector:picture_library:v2.5.9] /Users/luke/.gradle/caches/transforms-2/files-2.1/7fb735ee8d87759741c3da9b3f6138a0/picture_library-v2.5.9/AndroidManifest.xml:41:13-90
+233            android:configChanges="orientation|keyboardHidden|screenSize" />
+233-->[com.github.LuckSiege.PictureSelector:picture_library:v2.5.9] /Users/luke/.gradle/caches/transforms-2/files-2.1/7fb735ee8d87759741c3da9b3f6138a0/picture_library-v2.5.9/AndroidManifest.xml:42:13-74
+234        <activity
+234-->[com.github.LuckSiege.PictureSelector:picture_library:v2.5.9] /Users/luke/.gradle/caches/transforms-2/files-2.1/7fb735ee8d87759741c3da9b3f6138a0/picture_library-v2.5.9/AndroidManifest.xml:43:9-46:50
+235            android:name="com.luck.picture.lib.PictureVideoPlayActivity"
+235-->[com.github.LuckSiege.PictureSelector:picture_library:v2.5.9] /Users/luke/.gradle/caches/transforms-2/files-2.1/7fb735ee8d87759741c3da9b3f6138a0/picture_library-v2.5.9/AndroidManifest.xml:44:13-73
+236            android:configChanges="orientation|keyboardHidden|screenSize"
+236-->[com.github.LuckSiege.PictureSelector:picture_library:v2.5.9] /Users/luke/.gradle/caches/transforms-2/files-2.1/7fb735ee8d87759741c3da9b3f6138a0/picture_library-v2.5.9/AndroidManifest.xml:45:13-74
+237            android:screenOrientation="sensor" />
+237-->[com.github.LuckSiege.PictureSelector:picture_library:v2.5.9] /Users/luke/.gradle/caches/transforms-2/files-2.1/7fb735ee8d87759741c3da9b3f6138a0/picture_library-v2.5.9/AndroidManifest.xml:46:13-47
+238        <activity
+238-->[com.github.LuckSiege.PictureSelector:picture_library:v2.5.9] /Users/luke/.gradle/caches/transforms-2/files-2.1/7fb735ee8d87759741c3da9b3f6138a0/picture_library-v2.5.9/AndroidManifest.xml:47:9-49:77
+239            android:name="com.luck.picture.lib.PictureExternalPreviewActivity"
+239-->[com.github.LuckSiege.PictureSelector:picture_library:v2.5.9] /Users/luke/.gradle/caches/transforms-2/files-2.1/7fb735ee8d87759741c3da9b3f6138a0/picture_library-v2.5.9/AndroidManifest.xml:48:13-79
+240            android:configChanges="orientation|keyboardHidden|screenSize" />
+240-->[com.github.LuckSiege.PictureSelector:picture_library:v2.5.9] /Users/luke/.gradle/caches/transforms-2/files-2.1/7fb735ee8d87759741c3da9b3f6138a0/picture_library-v2.5.9/AndroidManifest.xml:49:13-74
+241        <activity
+241-->[com.github.LuckSiege.PictureSelector:picture_library:v2.5.9] /Users/luke/.gradle/caches/transforms-2/files-2.1/7fb735ee8d87759741c3da9b3f6138a0/picture_library-v2.5.9/AndroidManifest.xml:50:9-52:77
+242            android:name="com.luck.picture.lib.PicturePlayAudioActivity"
+242-->[com.github.LuckSiege.PictureSelector:picture_library:v2.5.9] /Users/luke/.gradle/caches/transforms-2/files-2.1/7fb735ee8d87759741c3da9b3f6138a0/picture_library-v2.5.9/AndroidManifest.xml:51:13-73
+243            android:configChanges="orientation|keyboardHidden|screenSize" />
+243-->[com.github.LuckSiege.PictureSelector:picture_library:v2.5.9] /Users/luke/.gradle/caches/transforms-2/files-2.1/7fb735ee8d87759741c3da9b3f6138a0/picture_library-v2.5.9/AndroidManifest.xml:52:13-74
+244        <activity
+244-->[com.github.LuckSiege.PictureSelector:picture_library:v2.5.9] /Users/luke/.gradle/caches/transforms-2/files-2.1/7fb735ee8d87759741c3da9b3f6138a0/picture_library-v2.5.9/AndroidManifest.xml:53:9-55:61
+245            android:name="com.yalantis.ucrop.UCropActivity"
+245-->[com.github.LuckSiege.PictureSelector:picture_library:v2.5.9] /Users/luke/.gradle/caches/transforms-2/files-2.1/7fb735ee8d87759741c3da9b3f6138a0/picture_library-v2.5.9/AndroidManifest.xml:54:13-60
+246            android:theme="@style/Base.Theme.NoActionBar" />
+246-->[com.github.LuckSiege.PictureSelector:picture_library:v2.5.9] /Users/luke/.gradle/caches/transforms-2/files-2.1/7fb735ee8d87759741c3da9b3f6138a0/picture_library-v2.5.9/AndroidManifest.xml:55:13-58
+247        <activity
+247-->[com.github.LuckSiege.PictureSelector:picture_library:v2.5.9] /Users/luke/.gradle/caches/transforms-2/files-2.1/7fb735ee8d87759741c3da9b3f6138a0/picture_library-v2.5.9/AndroidManifest.xml:56:9-58:61
+248            android:name="com.yalantis.ucrop.PictureMultiCuttingActivity"
+248-->[com.github.LuckSiege.PictureSelector:picture_library:v2.5.9] /Users/luke/.gradle/caches/transforms-2/files-2.1/7fb735ee8d87759741c3da9b3f6138a0/picture_library-v2.5.9/AndroidManifest.xml:57:13-74
+249            android:theme="@style/Base.Theme.NoActionBar" />
+249-->[com.github.LuckSiege.PictureSelector:picture_library:v2.5.9] /Users/luke/.gradle/caches/transforms-2/files-2.1/7fb735ee8d87759741c3da9b3f6138a0/picture_library-v2.5.9/AndroidManifest.xml:58:13-58
+250        <activity
+250-->[androidx.biometric:biometric:1.0.0-beta01] /Users/luke/.gradle/caches/transforms-2/files-2.1/ff674de236d491f1c99d72bd7d7ade85/biometric-1.0.0-beta01/AndroidManifest.xml:28:9-30:67
+251            android:name="androidx.biometric.DeviceCredentialHandlerActivity"
+251-->[androidx.biometric:biometric:1.0.0-beta01] /Users/luke/.gradle/caches/transforms-2/files-2.1/ff674de236d491f1c99d72bd7d7ade85/biometric-1.0.0-beta01/AndroidManifest.xml:29:13-78
+252            android:theme="@style/DeviceCredentialHandlerTheme" />
+252-->[androidx.biometric:biometric:1.0.0-beta01] /Users/luke/.gradle/caches/transforms-2/files-2.1/ff674de236d491f1c99d72bd7d7ade85/biometric-1.0.0-beta01/AndroidManifest.xml:30:13-64
+253
+254        <receiver
+254-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/luke/.gradle/caches/transforms-2/files-2.1/7dc901e12829c84034118540abd86c4c/play-services-measurement-17.6.0/AndroidManifest.xml:29:9-33:20
+255            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+255-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/luke/.gradle/caches/transforms-2/files-2.1/7dc901e12829c84034118540abd86c4c/play-services-measurement-17.6.0/AndroidManifest.xml:30:13-85
+256            android:enabled="true"
+256-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/luke/.gradle/caches/transforms-2/files-2.1/7dc901e12829c84034118540abd86c4c/play-services-measurement-17.6.0/AndroidManifest.xml:31:13-35
+257            android:exported="false" >
+257-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/luke/.gradle/caches/transforms-2/files-2.1/7dc901e12829c84034118540abd86c4c/play-services-measurement-17.6.0/AndroidManifest.xml:32:13-37
+258        </receiver>
+259
+260        <service
+260-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/luke/.gradle/caches/transforms-2/files-2.1/7dc901e12829c84034118540abd86c4c/play-services-measurement-17.6.0/AndroidManifest.xml:35:9-38:40
+261            android:name="com.google.android.gms.measurement.AppMeasurementService"
+261-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/luke/.gradle/caches/transforms-2/files-2.1/7dc901e12829c84034118540abd86c4c/play-services-measurement-17.6.0/AndroidManifest.xml:36:13-84
+262            android:enabled="true"
+262-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/luke/.gradle/caches/transforms-2/files-2.1/7dc901e12829c84034118540abd86c4c/play-services-measurement-17.6.0/AndroidManifest.xml:37:13-35
+263            android:exported="false" />
+263-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/luke/.gradle/caches/transforms-2/files-2.1/7dc901e12829c84034118540abd86c4c/play-services-measurement-17.6.0/AndroidManifest.xml:38:13-37
+264        <service
+264-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/luke/.gradle/caches/transforms-2/files-2.1/7dc901e12829c84034118540abd86c4c/play-services-measurement-17.6.0/AndroidManifest.xml:39:9-43:72
+265            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+265-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/luke/.gradle/caches/transforms-2/files-2.1/7dc901e12829c84034118540abd86c4c/play-services-measurement-17.6.0/AndroidManifest.xml:40:13-87
+266            android:enabled="true"
+266-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/luke/.gradle/caches/transforms-2/files-2.1/7dc901e12829c84034118540abd86c4c/play-services-measurement-17.6.0/AndroidManifest.xml:41:13-35
+267            android:exported="false"
+267-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/luke/.gradle/caches/transforms-2/files-2.1/7dc901e12829c84034118540abd86c4c/play-services-measurement-17.6.0/AndroidManifest.xml:42:13-37
+268            android:permission="android.permission.BIND_JOB_SERVICE" />
+268-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/luke/.gradle/caches/transforms-2/files-2.1/7dc901e12829c84034118540abd86c4c/play-services-measurement-17.6.0/AndroidManifest.xml:43:13-69
+269
+270        <activity
+270-->[com.google.android.gms:play-services-auth:16.0.1] /Users/luke/.gradle/caches/transforms-2/files-2.1/8bdbb4a8ddee748e495ee5efa37267cb/jetified-play-services-auth-16.0.1/AndroidManifest.xml:23:9-27:75
+271            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+271-->[com.google.android.gms:play-services-auth:16.0.1] /Users/luke/.gradle/caches/transforms-2/files-2.1/8bdbb4a8ddee748e495ee5efa37267cb/jetified-play-services-auth-16.0.1/AndroidManifest.xml:24:13-93
+272            android:excludeFromRecents="true"
+272-->[com.google.android.gms:play-services-auth:16.0.1] /Users/luke/.gradle/caches/transforms-2/files-2.1/8bdbb4a8ddee748e495ee5efa37267cb/jetified-play-services-auth-16.0.1/AndroidManifest.xml:25:13-46
+273            android:exported="false"
+273-->[com.google.android.gms:play-services-auth:16.0.1] /Users/luke/.gradle/caches/transforms-2/files-2.1/8bdbb4a8ddee748e495ee5efa37267cb/jetified-play-services-auth-16.0.1/AndroidManifest.xml:26:13-37
+274            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+274-->[com.google.android.gms:play-services-auth:16.0.1] /Users/luke/.gradle/caches/transforms-2/files-2.1/8bdbb4a8ddee748e495ee5efa37267cb/jetified-play-services-auth-16.0.1/AndroidManifest.xml:27:13-72
+275        <!--
+276            Service handling Google Sign-In user revocation. For apps that do not integrate with
+277            Google Sign-In, this service will never be started.
+278        -->
+279        <service
+279-->[com.google.android.gms:play-services-auth:16.0.1] /Users/luke/.gradle/caches/transforms-2/files-2.1/8bdbb4a8ddee748e495ee5efa37267cb/jetified-play-services-auth-16.0.1/AndroidManifest.xml:33:9-36:110
+280            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+280-->[com.google.android.gms:play-services-auth:16.0.1] /Users/luke/.gradle/caches/transforms-2/files-2.1/8bdbb4a8ddee748e495ee5efa37267cb/jetified-play-services-auth-16.0.1/AndroidManifest.xml:34:13-89
+281            android:exported="true"
+281-->[com.google.android.gms:play-services-auth:16.0.1] /Users/luke/.gradle/caches/transforms-2/files-2.1/8bdbb4a8ddee748e495ee5efa37267cb/jetified-play-services-auth-16.0.1/AndroidManifest.xml:35:13-36
+282            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" /> <!-- Needs to be explicitly declared on P+ -->
+282-->[com.google.android.gms:play-services-auth:16.0.1] /Users/luke/.gradle/caches/transforms-2/files-2.1/8bdbb4a8ddee748e495ee5efa37267cb/jetified-play-services-auth-16.0.1/AndroidManifest.xml:36:13-107
+283        <uses-library
+283-->[com.google.android.gms:play-services-maps:17.0.0] /Users/luke/.gradle/caches/transforms-2/files-2.1/1268dd65323f347429955010a19cd33c/play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+284            android:name="org.apache.http.legacy"
+284-->[com.google.android.gms:play-services-maps:17.0.0] /Users/luke/.gradle/caches/transforms-2/files-2.1/1268dd65323f347429955010a19cd33c/play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+285            android:required="false" />
+285-->[com.google.android.gms:play-services-maps:17.0.0] /Users/luke/.gradle/caches/transforms-2/files-2.1/1268dd65323f347429955010a19cd33c/play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+286
+287        <activity
+287-->[com.google.android.gms:play-services-base:17.1.0] /Users/luke/.gradle/caches/transforms-2/files-2.1/d59feee089f9720f4cc587a3e6c5a19d/play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+288            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+288-->[com.google.android.gms:play-services-base:17.1.0] /Users/luke/.gradle/caches/transforms-2/files-2.1/d59feee089f9720f4cc587a3e6c5a19d/play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+289            android:exported="false"
+289-->[com.google.android.gms:play-services-base:17.1.0] /Users/luke/.gradle/caches/transforms-2/files-2.1/d59feee089f9720f4cc587a3e6c5a19d/play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+290            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+290-->[com.google.android.gms:play-services-base:17.1.0] /Users/luke/.gradle/caches/transforms-2/files-2.1/d59feee089f9720f4cc587a3e6c5a19d/play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+291
+292        <provider
+292-->[com.google.firebase:firebase-common:19.3.1] /Users/luke/.gradle/caches/transforms-2/files-2.1/a35ffd723fc1753a95058f9d4bf468b8/jetified-firebase-common-19.3.1/AndroidManifest.xml:26:9-31:39
+293            android:name="com.google.firebase.provider.FirebaseInitProvider"
+293-->[com.google.firebase:firebase-common:19.3.1] /Users/luke/.gradle/caches/transforms-2/files-2.1/a35ffd723fc1753a95058f9d4bf468b8/jetified-firebase-common-19.3.1/AndroidManifest.xml:27:13-77
+294            android:authorities="com.bhaithamen.app.firebaseinitprovider"
+294-->[com.google.firebase:firebase-common:19.3.1] /Users/luke/.gradle/caches/transforms-2/files-2.1/a35ffd723fc1753a95058f9d4bf468b8/jetified-firebase-common-19.3.1/AndroidManifest.xml:28:13-72
+295            android:directBootAware="true"
+295-->[com.google.firebase:firebase-common:19.3.1] /Users/luke/.gradle/caches/transforms-2/files-2.1/a35ffd723fc1753a95058f9d4bf468b8/jetified-firebase-common-19.3.1/AndroidManifest.xml:29:13-43
+296            android:exported="false"
+296-->[com.google.firebase:firebase-common:19.3.1] /Users/luke/.gradle/caches/transforms-2/files-2.1/a35ffd723fc1753a95058f9d4bf468b8/jetified-firebase-common-19.3.1/AndroidManifest.xml:30:13-37
+297            android:initOrder="100" />
+297-->[com.google.firebase:firebase-common:19.3.1] /Users/luke/.gradle/caches/transforms-2/files-2.1/a35ffd723fc1753a95058f9d4bf468b8/jetified-firebase-common-19.3.1/AndroidManifest.xml:31:13-36
+298
+299        <meta-data
+299-->[com.google.android.gms:play-services-basement:17.0.0] /Users/luke/.gradle/caches/transforms-2/files-2.1/42870920db15b583d01471976633fc45/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+300            android:name="com.google.android.gms.version"
+300-->[com.google.android.gms:play-services-basement:17.0.0] /Users/luke/.gradle/caches/transforms-2/files-2.1/42870920db15b583d01471976633fc45/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+301            android:value="@integer/google_play_services_version" />
+301-->[com.google.android.gms:play-services-basement:17.0.0] /Users/luke/.gradle/caches/transforms-2/files-2.1/42870920db15b583d01471976633fc45/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+302
+303        <service
+303-->[com.google.android.datatransport:transport-runtime:2.2.4] /Users/luke/.gradle/caches/transforms-2/files-2.1/48ac622e199ff640fd0627d00e2a53f3/jetified-transport-runtime-2.2.4/AndroidManifest.xml:26:9-30:19
+304            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+304-->[com.google.android.datatransport:transport-runtime:2.2.4] /Users/luke/.gradle/caches/transforms-2/files-2.1/48ac622e199ff640fd0627d00e2a53f3/jetified-transport-runtime-2.2.4/AndroidManifest.xml:27:13-117
+305            android:exported="false"
+305-->[com.google.android.datatransport:transport-runtime:2.2.4] /Users/luke/.gradle/caches/transforms-2/files-2.1/48ac622e199ff640fd0627d00e2a53f3/jetified-transport-runtime-2.2.4/AndroidManifest.xml:28:13-37
+306            android:permission="android.permission.BIND_JOB_SERVICE" >
+306-->[com.google.android.datatransport:transport-runtime:2.2.4] /Users/luke/.gradle/caches/transforms-2/files-2.1/48ac622e199ff640fd0627d00e2a53f3/jetified-transport-runtime-2.2.4/AndroidManifest.xml:29:13-69
+307        </service>
+308
+309        <receiver
+309-->[com.google.android.datatransport:transport-runtime:2.2.4] /Users/luke/.gradle/caches/transforms-2/files-2.1/48ac622e199ff640fd0627d00e2a53f3/jetified-transport-runtime-2.2.4/AndroidManifest.xml:32:9-34:40
+310            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+310-->[com.google.android.datatransport:transport-runtime:2.2.4] /Users/luke/.gradle/caches/transforms-2/files-2.1/48ac622e199ff640fd0627d00e2a53f3/jetified-transport-runtime-2.2.4/AndroidManifest.xml:33:13-132
+311            android:exported="false" />
+311-->[com.google.android.datatransport:transport-runtime:2.2.4] /Users/luke/.gradle/caches/transforms-2/files-2.1/48ac622e199ff640fd0627d00e2a53f3/jetified-transport-runtime-2.2.4/AndroidManifest.xml:34:13-37
+312
+313        <activity
+313-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/luke/.gradle/caches/transforms-2/files-2.1/77ee7545cd628345d1d73d1854066a3f/tslocationmanager-3.1.19/AndroidManifest.xml:20:9-224
+314            android:name="com.transistorsoft.locationmanager.activity.TSLocationManagerActivity"
+314-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/luke/.gradle/caches/transforms-2/files-2.1/77ee7545cd628345d1d73d1854066a3f/tslocationmanager-3.1.19/AndroidManifest.xml:20:19-103
+315            android:excludeFromRecents="true"
+315-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/luke/.gradle/caches/transforms-2/files-2.1/77ee7545cd628345d1d73d1854066a3f/tslocationmanager-3.1.19/AndroidManifest.xml:20:104-137
+316            android:launchMode="singleInstance"
+316-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/luke/.gradle/caches/transforms-2/files-2.1/77ee7545cd628345d1d73d1854066a3f/tslocationmanager-3.1.19/AndroidManifest.xml:20:138-173
+317            android:theme="@style/TSLocationManagerActivity" />
+317-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/luke/.gradle/caches/transforms-2/files-2.1/77ee7545cd628345d1d73d1854066a3f/tslocationmanager-3.1.19/AndroidManifest.xml:20:174-222
+318
+319        <service android:name="com.transistorsoft.locationmanager.service.HeartbeatService" />
+319-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/luke/.gradle/caches/transforms-2/files-2.1/77ee7545cd628345d1d73d1854066a3f/tslocationmanager-3.1.19/AndroidManifest.xml:23:9-94
+319-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/luke/.gradle/caches/transforms-2/files-2.1/77ee7545cd628345d1d73d1854066a3f/tslocationmanager-3.1.19/AndroidManifest.xml:23:18-92
+320        <service android:name="com.transistorsoft.locationmanager.service.ActivityRecognitionService" />
+320-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/luke/.gradle/caches/transforms-2/files-2.1/77ee7545cd628345d1d73d1854066a3f/tslocationmanager-3.1.19/AndroidManifest.xml:24:9-104
+320-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/luke/.gradle/caches/transforms-2/files-2.1/77ee7545cd628345d1d73d1854066a3f/tslocationmanager-3.1.19/AndroidManifest.xml:24:18-102
+321        <service android:name="com.transistorsoft.locationmanager.service.GeofencingService" />
+321-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/luke/.gradle/caches/transforms-2/files-2.1/77ee7545cd628345d1d73d1854066a3f/tslocationmanager-3.1.19/AndroidManifest.xml:25:9-95
+321-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/luke/.gradle/caches/transforms-2/files-2.1/77ee7545cd628345d1d73d1854066a3f/tslocationmanager-3.1.19/AndroidManifest.xml:25:18-93
+322        <service android:name="com.transistorsoft.locationmanager.service.BackgroundTaskService" />
+322-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/luke/.gradle/caches/transforms-2/files-2.1/77ee7545cd628345d1d73d1854066a3f/tslocationmanager-3.1.19/AndroidManifest.xml:26:9-99
+322-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/luke/.gradle/caches/transforms-2/files-2.1/77ee7545cd628345d1d73d1854066a3f/tslocationmanager-3.1.19/AndroidManifest.xml:26:18-97
+323
+324        <receiver
+324-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/luke/.gradle/caches/transforms-2/files-2.1/77ee7545cd628345d1d73d1854066a3f/tslocationmanager-3.1.19/AndroidManifest.xml:27:9-127
+325            android:name="com.transistorsoft.locationmanager.scheduler.ScheduleAlarmReceiver"
+325-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/luke/.gradle/caches/transforms-2/files-2.1/77ee7545cd628345d1d73d1854066a3f/tslocationmanager-3.1.19/AndroidManifest.xml:27:19-100
+326            android:exported="false" />
+326-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/luke/.gradle/caches/transforms-2/files-2.1/77ee7545cd628345d1d73d1854066a3f/tslocationmanager-3.1.19/AndroidManifest.xml:27:101-125
+327
+328        <service android:name="com.transistorsoft.locationmanager.scheduler.ScheduleService" />
+328-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/luke/.gradle/caches/transforms-2/files-2.1/77ee7545cd628345d1d73d1854066a3f/tslocationmanager-3.1.19/AndroidManifest.xml:28:9-95
+328-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/luke/.gradle/caches/transforms-2/files-2.1/77ee7545cd628345d1d73d1854066a3f/tslocationmanager-3.1.19/AndroidManifest.xml:28:18-93
+329        <service
+329-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/luke/.gradle/caches/transforms-2/files-2.1/77ee7545cd628345d1d73d1854066a3f/tslocationmanager-3.1.19/AndroidManifest.xml:29:9-155
+330            android:name="com.transistorsoft.locationmanager.scheduler.ScheduleJobService"
+330-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/luke/.gradle/caches/transforms-2/files-2.1/77ee7545cd628345d1d73d1854066a3f/tslocationmanager-3.1.19/AndroidManifest.xml:29:18-96
+331            android:permission="android.permission.BIND_JOB_SERVICE" />
+331-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/luke/.gradle/caches/transforms-2/files-2.1/77ee7545cd628345d1d73d1854066a3f/tslocationmanager-3.1.19/AndroidManifest.xml:29:97-153
+332
+333        <receiver
+333-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/luke/.gradle/caches/transforms-2/files-2.1/77ee7545cd628345d1d73d1854066a3f/tslocationmanager-3.1.19/AndroidManifest.xml:30:9-35:20
+334            android:name="com.transistorsoft.locationmanager.BootReceiver"
+334-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/luke/.gradle/caches/transforms-2/files-2.1/77ee7545cd628345d1d73d1854066a3f/tslocationmanager-3.1.19/AndroidManifest.xml:30:19-81
+335            android:exported="false" >
+335-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/luke/.gradle/caches/transforms-2/files-2.1/77ee7545cd628345d1d73d1854066a3f/tslocationmanager-3.1.19/AndroidManifest.xml:30:82-106
+336            <intent-filter>
+336-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/luke/.gradle/caches/transforms-2/files-2.1/77ee7545cd628345d1d73d1854066a3f/tslocationmanager-3.1.19/AndroidManifest.xml:31:13-34:29
+337                <action android:name="android.intent.action.BOOT_COMPLETED" />
+337-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/luke/.gradle/caches/transforms-2/files-2.1/77ee7545cd628345d1d73d1854066a3f/tslocationmanager-3.1.19/AndroidManifest.xml:32:17-78
+337-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/luke/.gradle/caches/transforms-2/files-2.1/77ee7545cd628345d1d73d1854066a3f/tslocationmanager-3.1.19/AndroidManifest.xml:32:25-76
+338                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+338-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/luke/.gradle/caches/transforms-2/files-2.1/77ee7545cd628345d1d73d1854066a3f/tslocationmanager-3.1.19/AndroidManifest.xml:33:17-83
+338-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/luke/.gradle/caches/transforms-2/files-2.1/77ee7545cd628345d1d73d1854066a3f/tslocationmanager-3.1.19/AndroidManifest.xml:33:25-81
+339            </intent-filter>
+340        </receiver>
+341
+342        <provider
+342-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/luke/.gradle/caches/transforms-2/files-2.1/77ee7545cd628345d1d73d1854066a3f/tslocationmanager-3.1.19/AndroidManifest.xml:36:9-38:20
+343            android:name="com.transistorsoft.locationmanager.util.LogFileProvider"
+343-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/luke/.gradle/caches/transforms-2/files-2.1/77ee7545cd628345d1d73d1854066a3f/tslocationmanager-3.1.19/AndroidManifest.xml:36:19-89
+344            android:authorities="com.bhaithamen.app.tslocationmanager.fileprovider"
+344-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/luke/.gradle/caches/transforms-2/files-2.1/77ee7545cd628345d1d73d1854066a3f/tslocationmanager-3.1.19/AndroidManifest.xml:36:90-159
+345            android:exported="false"
+345-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/luke/.gradle/caches/transforms-2/files-2.1/77ee7545cd628345d1d73d1854066a3f/tslocationmanager-3.1.19/AndroidManifest.xml:36:160-184
+346            android:grantUriPermissions="true" >
+346-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/luke/.gradle/caches/transforms-2/files-2.1/77ee7545cd628345d1d73d1854066a3f/tslocationmanager-3.1.19/AndroidManifest.xml:36:185-219
+347            <meta-data
+347-->[:image_picker] /Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-18:75
+348                android:name="android.support.FILE_PROVIDER_PATHS"
+348-->[:image_picker] /Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-67
+349                android:resource="@xml/tslocationmanager_file_provider_path" />
+349-->[:image_picker] /Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-72
+350        </provider>
+351
+352        <activity
+352-->[com.intentfilter:android-permissions:0.1.8] /Users/luke/.gradle/caches/transforms-2/files-2.1/c48b71702f83028fef24e8a771349410/jetified-android-permissions-0.1.8/AndroidManifest.xml:12:9-15:59
+353            android:name="com.intentfilter.androidpermissions.PermissionsActivity"
+353-->[com.intentfilter:android-permissions:0.1.8] /Users/luke/.gradle/caches/transforms-2/files-2.1/c48b71702f83028fef24e8a771349410/jetified-android-permissions-0.1.8/AndroidManifest.xml:13:13-83
+354            android:excludeFromRecents="true"
+354-->[com.intentfilter:android-permissions:0.1.8] /Users/luke/.gradle/caches/transforms-2/files-2.1/c48b71702f83028fef24e8a771349410/jetified-android-permissions-0.1.8/AndroidManifest.xml:14:13-46
+355            android:theme="@style/AppTheme.Transparent" />
+355-->[com.intentfilter:android-permissions:0.1.8] /Users/luke/.gradle/caches/transforms-2/files-2.1/c48b71702f83028fef24e8a771349410/jetified-android-permissions-0.1.8/AndroidManifest.xml:15:13-56
+356
+357        <receiver android:name="com.transistorsoft.tsbackgroundfetch.FetchAlarmReceiver" />
+357-->[com.transistorsoft:tsbackgroundfetch:0.4.5] /Users/luke/.gradle/caches/transforms-2/files-2.1/ba0d9a1d1825d803a7c0dcc70f928361/tsbackgroundfetch-0.4.5/AndroidManifest.xml:16:9-92
+357-->[com.transistorsoft:tsbackgroundfetch:0.4.5] /Users/luke/.gradle/caches/transforms-2/files-2.1/ba0d9a1d1825d803a7c0dcc70f928361/tsbackgroundfetch-0.4.5/AndroidManifest.xml:16:19-89
+358
+359        <service
+359-->[com.transistorsoft:tsbackgroundfetch:0.4.5] /Users/luke/.gradle/caches/transforms-2/files-2.1/ba0d9a1d1825d803a7c0dcc70f928361/tsbackgroundfetch-0.4.5/AndroidManifest.xml:18:9-21:72
+360            android:name="com.transistorsoft.tsbackgroundfetch.FetchJobService"
+360-->[com.transistorsoft:tsbackgroundfetch:0.4.5] /Users/luke/.gradle/caches/transforms-2/files-2.1/ba0d9a1d1825d803a7c0dcc70f928361/tsbackgroundfetch-0.4.5/AndroidManifest.xml:19:13-80
+361            android:exported="true"
+361-->[com.transistorsoft:tsbackgroundfetch:0.4.5] /Users/luke/.gradle/caches/transforms-2/files-2.1/ba0d9a1d1825d803a7c0dcc70f928361/tsbackgroundfetch-0.4.5/AndroidManifest.xml:20:13-36
+362            android:permission="android.permission.BIND_JOB_SERVICE" />
+362-->[com.transistorsoft:tsbackgroundfetch:0.4.5] /Users/luke/.gradle/caches/transforms-2/files-2.1/ba0d9a1d1825d803a7c0dcc70f928361/tsbackgroundfetch-0.4.5/AndroidManifest.xml:21:13-69
+363
+364        <receiver android:name="com.transistorsoft.tsbackgroundfetch.BootReceiver" >
+364-->[com.transistorsoft:tsbackgroundfetch:0.4.5] /Users/luke/.gradle/caches/transforms-2/files-2.1/ba0d9a1d1825d803a7c0dcc70f928361/tsbackgroundfetch-0.4.5/AndroidManifest.xml:23:9-28:20
+364-->[com.transistorsoft:tsbackgroundfetch:0.4.5] /Users/luke/.gradle/caches/transforms-2/files-2.1/ba0d9a1d1825d803a7c0dcc70f928361/tsbackgroundfetch-0.4.5/AndroidManifest.xml:23:19-83
+365            <intent-filter>
+365-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/luke/.gradle/caches/transforms-2/files-2.1/77ee7545cd628345d1d73d1854066a3f/tslocationmanager-3.1.19/AndroidManifest.xml:31:13-34:29
+366                <action android:name="android.intent.action.BOOT_COMPLETED" />
+366-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/luke/.gradle/caches/transforms-2/files-2.1/77ee7545cd628345d1d73d1854066a3f/tslocationmanager-3.1.19/AndroidManifest.xml:32:17-78
+366-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/luke/.gradle/caches/transforms-2/files-2.1/77ee7545cd628345d1d73d1854066a3f/tslocationmanager-3.1.19/AndroidManifest.xml:32:25-76
+367                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+367-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/luke/.gradle/caches/transforms-2/files-2.1/77ee7545cd628345d1d73d1854066a3f/tslocationmanager-3.1.19/AndroidManifest.xml:33:17-83
+367-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/luke/.gradle/caches/transforms-2/files-2.1/77ee7545cd628345d1d73d1854066a3f/tslocationmanager-3.1.19/AndroidManifest.xml:33:25-81
+368            </intent-filter>
+369        </receiver>
+370    </application>
+371
+372</manifest>

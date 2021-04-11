@@ -1,0 +1,39 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/luke/Documents/Flutter/flutter/.pub-cache/hosted/pub.dartlang.org/images_picker-0.0.6/android/src/main/AndroidManifest.xml:1:1-10:12
+INJECTED from /Users/luke/Documents/Flutter/flutter/.pub-cache/hosted/pub.dartlang.org/images_picker-0.0.6/android/src/main/AndroidManifest.xml:1:1-10:12
+INJECTED from /Users/luke/Documents/Flutter/flutter/.pub-cache/hosted/pub.dartlang.org/images_picker-0.0.6/android/src/main/AndroidManifest.xml:1:1-10:12
+	package
+		ADDED from /Users/luke/Documents/Flutter/flutter/.pub-cache/hosted/pub.dartlang.org/images_picker-0.0.6/android/src/main/AndroidManifest.xml:2:3-39
+		INJECTED from /Users/luke/Documents/Flutter/flutter/.pub-cache/hosted/pub.dartlang.org/images_picker-0.0.6/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/luke/Documents/Flutter/flutter/.pub-cache/hosted/pub.dartlang.org/images_picker-0.0.6/android/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/luke/Documents/Flutter/flutter/.pub-cache/hosted/pub.dartlang.org/images_picker-0.0.6/android/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/luke/Documents/Flutter/flutter/.pub-cache/hosted/pub.dartlang.org/images_picker-0.0.6/android/src/main/AndroidManifest.xml:5:3-78
+	android:name
+		ADDED from /Users/luke/Documents/Flutter/flutter/.pub-cache/hosted/pub.dartlang.org/images_picker-0.0.6/android/src/main/AndroidManifest.xml:5:20-75
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/luke/Documents/Flutter/flutter/.pub-cache/hosted/pub.dartlang.org/images_picker-0.0.6/android/src/main/AndroidManifest.xml:6:3-79
+	android:name
+		ADDED from /Users/luke/Documents/Flutter/flutter/.pub-cache/hosted/pub.dartlang.org/images_picker-0.0.6/android/src/main/AndroidManifest.xml:6:20-76
+uses-permission#android.permission.CAMERA
+ADDED from /Users/luke/Documents/Flutter/flutter/.pub-cache/hosted/pub.dartlang.org/images_picker-0.0.6/android/src/main/AndroidManifest.xml:7:3-63
+	android:name
+		ADDED from /Users/luke/Documents/Flutter/flutter/.pub-cache/hosted/pub.dartlang.org/images_picker-0.0.6/android/src/main/AndroidManifest.xml:7:20-60
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Users/luke/Documents/Flutter/flutter/.pub-cache/hosted/pub.dartlang.org/images_picker-0.0.6/android/src/main/AndroidManifest.xml:8:3-69
+	android:name
+		ADDED from /Users/luke/Documents/Flutter/flutter/.pub-cache/hosted/pub.dartlang.org/images_picker-0.0.6/android/src/main/AndroidManifest.xml:8:20-66
+uses-permission#android.permission.INTERNET
+ADDED from /Users/luke/Documents/Flutter/flutter/.pub-cache/hosted/pub.dartlang.org/images_picker-0.0.6/android/src/main/AndroidManifest.xml:9:3-65
+	android:name
+		ADDED from /Users/luke/Documents/Flutter/flutter/.pub-cache/hosted/pub.dartlang.org/images_picker-0.0.6/android/src/main/AndroidManifest.xml:9:20-62
+uses-sdk
+INJECTED from /Users/luke/Documents/Flutter/flutter/.pub-cache/hosted/pub.dartlang.org/images_picker-0.0.6/android/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/luke/Documents/Flutter/flutter/.pub-cache/hosted/pub.dartlang.org/images_picker-0.0.6/android/src/main/AndroidManifest.xml
+INJECTED from /Users/luke/Documents/Flutter/flutter/.pub-cache/hosted/pub.dartlang.org/images_picker-0.0.6/android/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/luke/Documents/Flutter/flutter/.pub-cache/hosted/pub.dartlang.org/images_picker-0.0.6/android/src/main/AndroidManifest.xml
+		ADDED from /Users/luke/Documents/Flutter/flutter/.pub-cache/hosted/pub.dartlang.org/images_picker-0.0.6/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/luke/Documents/Flutter/flutter/.pub-cache/hosted/pub.dartlang.org/images_picker-0.0.6/android/src/main/AndroidManifest.xml

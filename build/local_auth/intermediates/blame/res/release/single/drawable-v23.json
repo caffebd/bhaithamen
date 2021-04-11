@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/build/local_auth/intermediates/res/merged/release/drawable-v23/fingerprint_dialog_fp_to_error.xml",
+        "source": "/Users/luke/.gradle/caches/transforms-2/files-2.1/ff674de236d491f1c99d72bd7d7ade85/biometric-1.0.0-beta01/res/drawable-v23/fingerprint_dialog_fp_to_error.xml"
+    },
+    {
+        "merged": "/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/build/local_auth/intermediates/res/merged/release/drawable-v23/abc_control_background_material.xml",
+        "source": "/Users/luke/.gradle/caches/transforms-2/files-2.1/0622329778413976a4c62c0803619454/appcompat-1.1.0-rc01/res/drawable-v23/abc_control_background_material.xml"
+    },
+    {
+        "merged": "/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/build/local_auth/intermediates/res/merged/release/drawable-v23/fingerprint_dialog_error_to_fp.xml",
+        "source": "/Users/luke/.gradle/caches/transforms-2/files-2.1/ff674de236d491f1c99d72bd7d7ade85/biometric-1.0.0-beta01/res/drawable-v23/fingerprint_dialog_error_to_fp.xml"
+    }
+]

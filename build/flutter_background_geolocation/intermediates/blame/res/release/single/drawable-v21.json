@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/build/flutter_background_geolocation/intermediates/res/merged/release/drawable-v21/notification_action_background.xml",
+        "source": "/Users/luke/.gradle/caches/transforms-2/files-2.1/e8506e3f9aac1f5564fa83749fe870f8/core-1.1.0/res/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/build/flutter_background_geolocation/intermediates/res/merged/release/drawable-v21/abc_list_divider_material.xml",
+        "source": "/Users/luke/.gradle/caches/transforms-2/files-2.1/55eecc294408aaa83a7679596b75d513/appcompat-1.0.2/res/drawable-v21/abc_list_divider_material.xml"
+    },
+    {
+        "merged": "/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/build/flutter_background_geolocation/intermediates/res/merged/release/drawable-v21/abc_dialog_material_background.xml",
+        "source": "/Users/luke/.gradle/caches/transforms-2/files-2.1/55eecc294408aaa83a7679596b75d513/appcompat-1.0.2/res/drawable-v21/abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/build/flutter_background_geolocation/intermediates/res/merged/release/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/Users/luke/.gradle/caches/transforms-2/files-2.1/55eecc294408aaa83a7679596b75d513/appcompat-1.0.2/res/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/build/flutter_background_geolocation/intermediates/res/merged/release/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/Users/luke/.gradle/caches/transforms-2/files-2.1/55eecc294408aaa83a7679596b75d513/appcompat-1.0.2/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/build/flutter_background_geolocation/intermediates/res/merged/release/drawable-v21/abc_edit_text_material.xml",
+        "source": "/Users/luke/.gradle/caches/transforms-2/files-2.1/55eecc294408aaa83a7679596b75d513/appcompat-1.0.2/res/drawable-v21/abc_edit_text_material.xml"
+    }
+]

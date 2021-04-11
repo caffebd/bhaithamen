@@ -1,0 +1,23 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/luke/Documents/Flutter/flutter/.pub-cache/hosted/pub.dartlang.org/sendsms-1.0.3/android/src/main/AndroidManifest.xml:1:1-4:12
+INJECTED from /Users/luke/Documents/Flutter/flutter/.pub-cache/hosted/pub.dartlang.org/sendsms-1.0.3/android/src/main/AndroidManifest.xml:1:1-4:12
+INJECTED from /Users/luke/Documents/Flutter/flutter/.pub-cache/hosted/pub.dartlang.org/sendsms-1.0.3/android/src/main/AndroidManifest.xml:1:1-4:12
+	package
+		ADDED from /Users/luke/Documents/Flutter/flutter/.pub-cache/hosted/pub.dartlang.org/sendsms-1.0.3/android/src/main/AndroidManifest.xml:2:3-41
+		INJECTED from /Users/luke/Documents/Flutter/flutter/.pub-cache/hosted/pub.dartlang.org/sendsms-1.0.3/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/luke/Documents/Flutter/flutter/.pub-cache/hosted/pub.dartlang.org/sendsms-1.0.3/android/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/luke/Documents/Flutter/flutter/.pub-cache/hosted/pub.dartlang.org/sendsms-1.0.3/android/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.SEND_SMS
+ADDED from /Users/luke/Documents/Flutter/flutter/.pub-cache/hosted/pub.dartlang.org/sendsms-1.0.3/android/src/main/AndroidManifest.xml:3:5-66
+	android:name
+		ADDED from /Users/luke/Documents/Flutter/flutter/.pub-cache/hosted/pub.dartlang.org/sendsms-1.0.3/android/src/main/AndroidManifest.xml:3:22-64
+uses-sdk
+INJECTED from /Users/luke/Documents/Flutter/flutter/.pub-cache/hosted/pub.dartlang.org/sendsms-1.0.3/android/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/luke/Documents/Flutter/flutter/.pub-cache/hosted/pub.dartlang.org/sendsms-1.0.3/android/src/main/AndroidManifest.xml
+INJECTED from /Users/luke/Documents/Flutter/flutter/.pub-cache/hosted/pub.dartlang.org/sendsms-1.0.3/android/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/luke/Documents/Flutter/flutter/.pub-cache/hosted/pub.dartlang.org/sendsms-1.0.3/android/src/main/AndroidManifest.xml
+		ADDED from /Users/luke/Documents/Flutter/flutter/.pub-cache/hosted/pub.dartlang.org/sendsms-1.0.3/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/luke/Documents/Flutter/flutter/.pub-cache/hosted/pub.dartlang.org/sendsms-1.0.3/android/src/main/AndroidManifest.xml

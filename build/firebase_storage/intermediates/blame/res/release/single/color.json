@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/build/firebase_storage/intermediates/res/merged/release/color/common_google_signin_btn_tint.xml",
+        "source": "/Users/luke/.gradle/caches/transforms-2/files-2.1/edd94b7783a15ff2f03cee2ce8607ee7/play-services-base-17.0.0/res/color/common_google_signin_btn_tint.xml"
+    },
+    {
+        "merged": "/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/build/firebase_storage/intermediates/res/merged/release/color/common_google_signin_btn_text_light.xml",
+        "source": "/Users/luke/.gradle/caches/transforms-2/files-2.1/edd94b7783a15ff2f03cee2ce8607ee7/play-services-base-17.0.0/res/color/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/build/firebase_storage/intermediates/res/merged/release/color/common_google_signin_btn_text_dark.xml",
+        "source": "/Users/luke/.gradle/caches/transforms-2/files-2.1/edd94b7783a15ff2f03cee2ce8607ee7/play-services-base-17.0.0/res/color/common_google_signin_btn_text_dark.xml"
+    }
+]

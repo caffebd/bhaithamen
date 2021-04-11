@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/build/images_picker/intermediates/res/merged/release/drawable-ldpi-v4/picture_ic_flash_auto.png",
+        "source": "/Users/luke/.gradle/caches/transforms-2/files-2.1/7fb735ee8d87759741c3da9b3f6138a0/picture_library-v2.5.9/res/drawable-ldpi-v4/picture_ic_flash_auto.png"
+    },
+    {
+        "merged": "/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/build/images_picker/intermediates/res/merged/release/drawable-ldpi-v4/picture_ic_camera.png",
+        "source": "/Users/luke/.gradle/caches/transforms-2/files-2.1/7fb735ee8d87759741c3da9b3f6138a0/picture_library-v2.5.9/res/drawable-ldpi-v4/picture_ic_camera.png"
+    },
+    {
+        "merged": "/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/build/images_picker/intermediates/res/merged/release/drawable-ldpi-v4/ucrop_ic_done.png",
+        "source": "/Users/luke/.gradle/caches/transforms-2/files-2.1/568fd5d254d72b0111eba35cdec251db/ucrop-v2.5.9/res/drawable-ldpi-v4/ucrop_ic_done.png"
+    },
+    {
+        "merged": "/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/build/images_picker/intermediates/res/merged/release/drawable-ldpi-v4/picture_ic_flash_on.png",
+        "source": "/Users/luke/.gradle/caches/transforms-2/files-2.1/7fb735ee8d87759741c3da9b3f6138a0/picture_library-v2.5.9/res/drawable-ldpi-v4/picture_ic_flash_on.png"
+    },
+    {
+        "merged": "/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/build/images_picker/intermediates/res/merged/release/drawable-ldpi-v4/picture_ic_flash_off.png",
+        "source": "/Users/luke/.gradle/caches/transforms-2/files-2.1/7fb735ee8d87759741c3da9b3f6138a0/picture_library-v2.5.9/res/drawable-ldpi-v4/picture_ic_flash_off.png"
+    },
+    {
+        "merged": "/Users/luke/Documents/Flutter/projects/BhaiThamenNoRecord/BhaiThamenNRJan/build/images_picker/intermediates/res/merged/release/drawable-ldpi-v4/ucrop_ic_angle.png",
+        "source": "/Users/luke/.gradle/caches/transforms-2/files-2.1/568fd5d254d72b0111eba35cdec251db/ucrop-v2.5.9/res/drawable-ldpi-v4/ucrop_ic_angle.png"
+    }
+]
